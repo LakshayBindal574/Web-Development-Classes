@@ -1,0 +1,19 @@
+body{
+    background: #000;
+}
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: #BF0125;
+    border: 1px solid #BF0125;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}

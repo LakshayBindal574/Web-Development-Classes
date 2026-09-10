@@ -1,0 +1,16 @@
+/* h1{
+    background-color: aqua;
+} */
+.classA{
+    background-color: green;
+}
+/* #firstId{
+    background-color: pink;
+} */ 
+
+.classA{
+    background-color: rgb(255, 247, 209);
+}
+h2{
+    background: wheat !important;
+}

@@ -1,0 +1,15 @@
+// const now = new Date();
+// console.log(now);
+// console.log(now.toString());
+// console.log(now.toISOString());
+// console.log(now.toLocaleString());
+// console.log(now.getDay());
+// console.log(now.getDate());
+// console.log(now.getFullYear());
+// console.log(now.getMonth());
+// const now = new Date(2025,8,20,8,25,16,125);
+// console.log(now);
+const now = Date.now();
+const date = new Date(0);
+console.log(date.toString());
+console.log(now);

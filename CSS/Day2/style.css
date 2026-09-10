@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+h1{
+    background-color: orange;
+    /* height: 300px; */
+    width: 230.5px;
+    border: 2px dotted black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+h2{
+    padding: 20px;
+}
+p{
+    background-color: aquamarine;
+    border: 2px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 10px 20px 40px 20px;
+    margin: 20px;
+}
+span{
+    color: black;
+    font-size: large;
+    font-style: italic;
+}

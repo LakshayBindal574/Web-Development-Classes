@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+}
+
+
+/* ================= HEADER ================= */
+
+.header {
+    background-color: white;
+}
+
+.header-c1 {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-c1 h1 {
+    font-size: 25px;
+    color: #2563eb;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero p {
+    color: #2563eb;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+
+/* ================= BUTTON ================= */
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+
+/* ================= SKILLS ================= */
+
+.skills {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 30px;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.skills li {
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+
+/* ================= PROJECTS ================= */
+
+.projects {
+    padding: 70px 10%;
+    text-align: center;
+    background-color: #f5f7fb;
+    min-height: 100vh;
+}
+
+.projects h2 {
+    font-size: 35px;
+    margin-bottom: 45px;
+    color: #2563eb;
+}
+
+.project-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+/* ================= PROJECT CARD ================= */
+
+.project-card {
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: left;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.project-card strong {
+    color: #333;
+}
+
+.project-card .btn {
+    margin-top: 10px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .header-c1 {
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header-c1 h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .hero {
+        min-height: 80vh;
+        padding: 30px 20px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .projects {
+        padding: 50px 20px;
+    }
+
+    .projects h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        padding: 25px;
+    }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+
+    .header-c1 h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .projects h2 {
+        font-size: 26px;
+    }
+
+    .project-card h3 {
+        font-size: 20px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .btn {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+}
