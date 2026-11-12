@@ -71,3 +71,5 @@ console.log(arr.flat());
 console.log(arr.flat(Infinity));
 console.log(arr["0"]);
 
+const arr1 = ['Sanjay', 'Ishan', "Krishna"];
+arr.splice(1,0,'Anuj', 'Naitik');

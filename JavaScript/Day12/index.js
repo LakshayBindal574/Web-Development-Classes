@@ -40,4 +40,5 @@ Array.prototype.filtering = function(compare){
 const arr = [10, 40, 20, 50, 100, 102, 108, 12];
 // console.log(arr.filtering((number) => number>100));
 
-console.log(arr.map((num) => num *2));
+console.log(arr.map((num) => num * 2));
+

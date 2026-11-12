@@ -12,3 +12,4 @@ function greet(){
     let a = 10;
     console.log(a);//Its a valid syntax
 }
+
